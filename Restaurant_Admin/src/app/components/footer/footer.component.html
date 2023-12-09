@@ -1,1 +1,33 @@
-<p>footer works!</p>
+<div class="custom-container">
+  <div class="custom-header">
+    <a href="/" aria-label="Company" title="Company" class="custom-logo">
+      <!-- Replace the Image component with an img tag and provide the correct path to your logo -->
+      <img src="/assets/logo.avif" alt="logo" width="50" height="50" />
+      <span class="custom-title">Zomato Admin</span>
+    </a>
+    <ul class="custom-menu">
+      <li *ngIf="!userId">
+        <a href="/sign-in" class="custom-sign-in">Sign In</a>
+      </li>
+      <li *ngIf="userId">
+        <!-- Replace UserButton with your actual user button component or HTML -->
+        <div>Replace with UserButton</div>
+      </li>
+    </ul>
+    <div class="custom-mobile-menu">
+      <button
+        aria-label="Open Menu"
+        title="Open Menu"
+        class="custom-menu-button"
+      >
+        <!-- Replace the svg with your menu icon -->
+        <svg class="w-5 text-gray-600" viewBox="0 0 24 24">
+          <!-- SVG path here -->
+        </svg>
+      </button>
+      <div *ngIf="isMenuOpen" class="custom-mobile-menu-content">
+        <!-- Mobile menu content here -->
+      </div>
+    </div>
+  </div>
+</div>

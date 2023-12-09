@@ -1,0 +1,77 @@
+/* Define your custom styles here */
+.custom-container {
+  padding: 4px 16px 5px;
+  margin: auto;
+  max-width: 100%;
+  background-color: #fffcf5;
+}
+
+.custom-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-logo {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.custom-logo img {
+  margin-right: 8px; /* Adjust as needed */
+}
+
+.custom-title {
+  margin-left: 2px; /* Adjust as needed */
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'monospace';
+  color: #ffac00;
+  text-transform: uppercase;
+}
+
+.custom-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-menu li {
+  margin-left: auto;
+}
+
+.custom-sign-in {
+  padding: 12px 24px;
+  border-radius: 9999px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  background: linear-gradient(to bottom, #ffcc80, #ffeb3b);
+  color: #ff9800;
+}
+
+.custom-mobile-menu {
+  display: block;
+}
+
+.custom-menu-button {
+  padding: 8px;
+  margin-right: -1px;
+  transition: background 0.3s ease;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.custom-mobile-menu-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+/* Add more styles for the mobile menu as needed */
